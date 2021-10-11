@@ -33,16 +33,48 @@ body {
   line-height: 33px;
   margin-top: 32px;
 }
+.hero .buttons {
+  font-size: 18px;
+  margin-top: 160px;
+  margin-bottom: 24px;
+  display: flex;
+}
 
+.download-image {
+  margin: 0;
+  padding: 0;
+  max-width: 18px;
+}
+.icon-button {
+  padding: 0 0 0 8px;
+  margin-left: 8px;
+}
+.download-button {
+  background-color: var(--button-color);
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 16px;
+}
+.download-button :hover {
+  color: white;
+}
 @media (max-width: 576px) {
   .hero {
     margin: 60px 16px;
   }
   .hero h3 {
+    font-size: 20px;
     margin-left: 0;
   }
   .hero h1 {
     margin-left: 0;
+
+    font-size: 32px;
+  }
+  .hero p {
+    font-size: 16px;
   }
   .presentation-title {
     position: relative;
@@ -50,5 +82,8 @@ body {
   .hero img {
     margin-left: 8px;
     position: relative;
+  }
+  .hero .buttons {
+    margin-top: 32px;
   }
 }
