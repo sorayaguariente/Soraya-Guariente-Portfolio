@@ -10,7 +10,8 @@ body {
   background-color: #e9edfc;
   color: var(--text-color);
 }
-.hero {
+.hero,
+.about-me-space {
   margin: 60px 100px;
   position: relative;
 }
@@ -23,7 +24,7 @@ body {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-.hero h1 {
+h1 {
   color: var(--title-color);
   font-size: 72px;
   font-weight: bold;
