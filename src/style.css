@@ -33,9 +33,6 @@ body {
   line-height: 33px;
   margin-top: 32px;
 }
-.hero img {
-  position: absolute;
-}
 
 @media (max-width: 576px) {
   .hero {
