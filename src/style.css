@@ -12,7 +12,7 @@ body {
   color: var(--text-color);
 }
 .hero,
-.about-me-space {
+.about-me-box {
   font-family: var(--font-family);
   margin: 60px 100px;
   position: relative;
@@ -67,21 +67,47 @@ body {
 .download-button :hover {
   color: white;
 }
-.about-me-space h1 {
+.about-me-box h1 {
   margin-left: 80px;
   font-size: 80px;
   color: var(--title-color);
   line-height: 120px;
 }
 .about-soraya {
-  margin-left: -100px;
+  margin-left: -80px;
   letter-spacing: var(--space-between-letters);
   line-height: 33px;
+  color: var(--text-color);
 }
-
-@media (max-width: 576px) {
-  .hero {
+.self-information {
+  margin-left: 88px;
+  background-color: #e9edfc;
+  padding: 40px;
+  border-radius: 10px;
+}
+.information-title {
+  color: var(--button-color);
+  letter-spacing: 6.33px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.information-data {
+  font-size: 18px;
+  letter-spacing: var(--space-between-letters);
+  margin-bottom: 16px;
+}
+.self-signature {
+  max-width: 40%;
+  margin-left: -80px;
+}
+@media (max-width: 768px) {
+  .hero,
+  .about-me-box {
     margin: 60px 16px;
+  }
+  .presentation-title {
+    margin: 16px;
+    position: relative;
   }
   .hero h3 {
     font-size: 20px;
@@ -95,14 +121,22 @@ body {
   .hero p {
     font-size: 16px;
   }
-  .presentation-title {
-    position: relative;
-  }
   .hero img {
     margin-left: 8px;
     position: relative;
   }
   .hero .buttons {
     margin-top: 32px;
+  }
+  .about-me-box h1 {
+    margin-left: 16px;
+    font-size: 32px;
+  }
+  .about-soraya,
+  .self-signature {
+    margin-left: 16px;
+  }
+  .self-information {
+    margin-left: 16px;
   }
 }
