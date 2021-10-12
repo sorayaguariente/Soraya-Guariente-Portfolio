@@ -24,7 +24,7 @@ body {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-h1 {
+.hero h1 {
   color: var(--title-color);
   font-size: 72px;
   font-weight: bold;
@@ -61,6 +61,12 @@ h1 {
 .download-button :hover {
   color: white;
 }
+.about-me-space h1 {
+  margin-left: 80px;
+  font-size: 80px;
+  color: var(--title-color);
+}
+
 @media (max-width: 576px) {
   .hero {
     margin: 60px 16px;
