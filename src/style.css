@@ -3,26 +3,31 @@
   --title-color: #303087;
   --button-color: #f03e69;
   --box-color: #f8f8ff;
+  --font-family: "Poppins", sans-serif;
+  --space-between-letters: 0.385714px;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   background-color: #e9edfc;
   color: var(--text-color);
 }
 .hero,
 .about-me-space {
+  font-family: var(--font-family);
   margin: 60px 100px;
   position: relative;
 }
+
 .presentation-title {
   position: absolute;
   margin-left: 80px;
 }
 .hero h3 {
   font-size: 32px;
+  font-weight: normal;
   margin-top: 16px;
   margin-bottom: 16px;
+  letter-spacing: var(--space-between-letters);
 }
 .hero h1 {
   color: var(--title-color);
@@ -33,10 +38,11 @@ body {
   font-size: 18px;
   line-height: 33px;
   margin-top: 32px;
+  letter-spacing: var(--space-between-letters);
 }
 .hero .buttons {
   font-size: 18px;
-  margin-top: 160px;
+  margin-top: 320px;
   margin-bottom: 24px;
   display: flex;
 }
@@ -65,6 +71,12 @@ body {
   margin-left: 80px;
   font-size: 80px;
   color: var(--title-color);
+  line-height: 120px;
+}
+.about-soraya {
+  margin-left: -100px;
+  letter-spacing: var(--space-between-letters);
+  line-height: 33px;
 }
 
 @media (max-width: 576px) {
