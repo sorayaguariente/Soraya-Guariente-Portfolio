@@ -165,6 +165,11 @@ body {
   text-align: center;
   padding: 8px 25px 7px 25px;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.btn-findout:hover {
+  color: white;
+  background-color: var(--button-color);
 }
 @media (max-width: 768px) {
   .hero,
