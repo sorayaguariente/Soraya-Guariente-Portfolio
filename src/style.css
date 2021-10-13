@@ -100,6 +100,42 @@ body {
   max-width: 40%;
   margin-left: -80px;
 }
+.self-skills {
+  background-color: var(--box-color);
+  margin: 240px 123px;
+  padding: 66px 172px;
+  font-family: var(--font-family);
+}
+.self-skills h1 {
+  color: var(--title-color);
+  font-size: 66.2821px;
+  font-weight: bold;
+  line-height: 99px;
+}
+.self-skills p {
+  margin: 13px 0;
+  color: var(--text-color);
+}
+.self-skills .each-skill {
+  color: #ffffff;
+  background-color: var(--text-color);
+  border-radius: 23.2px;
+  line-height: 20px;
+  font-size: 14.9135px;
+  letter-spacing: 0.21px;
+  padding: 7px 13px;
+  margin-right: 13px;
+}
+.projects {
+  font-family: var(--font-family);
+  margin: 96px 208px;
+}
+.projects h1 {
+  color: var(--title-color);
+  font-size: 80px;
+  line-height: 120px;
+  font-weight: bold;
+}
 @media (max-width: 768px) {
   .hero,
   .about-me-box {
@@ -132,11 +168,17 @@ body {
     margin-left: 16px;
     font-size: 32px;
   }
-  .about-soraya,
-  .self-signature {
+  .about-soraya {
     margin-left: 16px;
   }
   .self-information {
     margin-left: 16px;
+  }
+  .self-skills {
+    margin: 64px 0;
+    padding: 32px 18px;
+  }
+  .self-skills h1 {
+    font-size: 32px;
   }
 }
