@@ -6,10 +6,14 @@
   --font-family: "Poppins", sans-serif;
   --space-between-letters: 0.385714px;
 }
-
 body {
-  background-color: #e9edfc;
+  background-color: #ffffff;
   color: var(--text-color);
+}
+.navbar-style {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .hero,
 .about-me-box {
@@ -116,7 +120,7 @@ body {
   margin: 13px 0;
   color: var(--text-color);
 }
-.self-skills .each-skill {
+.each-skill {
   color: #ffffff;
   background-color: var(--text-color);
   border-radius: 23.2px;
@@ -138,6 +142,9 @@ body {
   font-weight: bold;
   margin-bottom: 64px;
   margin-left: 208px;
+}
+.project-sample {
+  margin: 80px;
 }
 .project-data {
   margin: 80px 0;
@@ -170,6 +177,34 @@ body {
 .btn-findout:hover {
   color: white;
   background-color: var(--button-color);
+}
+.project-section {
+  font-family: var(--font-family);
+  margin-top: 277px;
+  margin-left: 208px;
+}
+.project-section h1 {
+  font-size: 80px;
+  color: var(--title-color);
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.project-section p {
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: var(--space-between-letters);
+  margin-bottom: 40px;
+}
+.project-section .each-skill {
+  font-size: 18px;
+}
+.project-buttons {
+  margin: 48px 0;
+}
+.project-buttons .download-button {
+  padding: 8px 46px 7px 47px;
+  font-size: 18px;
 }
 @media (max-width: 768px) {
   .hero,
@@ -218,5 +253,8 @@ body {
   }
   .projects .container {
     display: block;
+  }
+  .project-section {
+    margin-left: 0;
   }
 }
