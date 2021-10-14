@@ -62,17 +62,34 @@
         </div>
       </div>
     </nav>
-    <nav class="nav projects-btn-group flex-column flex-sm-row">
-  <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="/project.html">Project 1</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/project2.html">Project 2</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/project3.html">Project 3</a>
-  </nav>
-       <div class="project-section">
-      <h1>Project 1</h1>
-      <div class="each-project-image d-block d-lg-none">
-              <img src="/images/weather-app.png" class="img-fluid" alt="" />
-            </div>
-          </div>
+    <div class="btn-group dropstart">
+      <button
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Dropstart
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropend">
+      <button
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Dropend
+      </button>
+    </div>
+    <div class="project-section">
+      <h1>Project 2</h1>
       <div class="each-project-detail-data container">
         <div class="row">
           <div class="col-lg-6">
@@ -97,35 +114,28 @@
                 <div class="each-skill">GitHub</div>
                 <div class="each-skill">Hosting</div>
               </div>
-              <div class="project-buttons text-center d-grid d-lg-block">
+              <div class="project-buttons">
                 <a
-                  href="https://trusting-brown-57e448.netlify.app/"
+                  href="#"
                   class="download-button"
                   target="_blank"
-                  title="Weather website"
+                  title="Download CV"
                 >
                   Go to site
                 </a>
                 <a
-                  href="https://www.github.com/sorayaguariente/weather-project"
-                  class="icon-button github-button d-none d-lg-inline"
+                  href="https://www.github.com/sorayaguariente"
+                  class="icon-button"
                   target="_blank"
                   title="GitHub"
                   ><img src="/images/github.png" alt=""
                 /></a>
-                <a
-                  href="https://www.github.com/sorayaguariente"
-                  class="github-button d-block d-lg-none"
-                  target="_blank"
-                  title="GitHub"
-                  >View GitHub</a
-                >
               </div>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="each-project-image d-none d-lg-flex">
-              <img src="/images/weather-app.png" class="img-fluid" alt="" />
+            <div class="each-project-image">
+              <img src="/images/project2.png" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
