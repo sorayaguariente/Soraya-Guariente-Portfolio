@@ -17,7 +17,7 @@ body {
   font-family: var(--font-family);
 }
 .projects-btn-group {
-  margin-top: 132px;
+  margin-top: 63px;
   font-family: var(--font-family);
   font-size: 18px;
   background-color: var(--box-color);
@@ -55,7 +55,7 @@ body {
 }
 .hero .buttons {
   font-size: 18px;
-  margin-top: 240px;
+  margin-top: 80px;
   margin-bottom: 24px;
   display: flex;
 }
@@ -86,14 +86,16 @@ body {
   color: var(--title-color);
   line-height: 120px;
 }
-.about-soraya {
-  margin-left: -80px;
+.about-content {
+  margin-left: 80px;
   letter-spacing: var(--space-between-letters);
   line-height: 33px;
   color: var(--text-color);
 }
+.about-soraya {
+  margin-left: 80px;
+}
 .self-information {
-  margin-left: 88px;
   background-color: #e9edfc;
   padding: 40px;
   border-radius: 10px;
@@ -108,6 +110,13 @@ body {
   font-size: 18px;
   letter-spacing: var(--space-between-letters);
   margin-bottom: 16px;
+}
+.information-data a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.information-data a:hover {
+  color: var(--title-color);
 }
 .self-signature {
   max-width: 40%;
@@ -142,7 +151,7 @@ body {
 }
 .projects {
   font-family: var(--font-family);
-  margin: 96px 0;
+  margin: 96px 160px;
 }
 .projects h1 {
   color: var(--title-color);
@@ -150,13 +159,9 @@ body {
   line-height: 120px;
   font-weight: bold;
   margin-bottom: 64px;
-  margin-left: 208px;
-}
-.project-sample {
-  margin: 80px;
 }
 .project-data {
-  margin: 80px 0;
+  margin: 40px 0;
 }
 .projects h2 {
   color: var(--button-color);
@@ -171,6 +176,10 @@ body {
   line-height: 33px;
   letter-spacing: var(--space-between-letters);
   margin: 24px 0;
+}
+.project.page h1 {
+  margin-top: 73px;
+  margin-bottom: 32px;
 }
 .btn-findout {
   border-radius: 8px;
@@ -187,33 +196,11 @@ body {
   color: white;
   background-color: var(--button-color);
 }
-.project-section {
-  font-family: var(--font-family);
-  margin-top: 74px;
-  margin-left: 208px;
-}
-.project-section h1 {
-  font-size: 80px;
-  color: var(--title-color);
-  font-weight: bold;
-  margin-bottom: 32px;
-  line-height: 120px;
-}
-.project-section p {
-  color: var(--text-color);
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: var(--space-between-letters);
-  margin-bottom: 40px;
-}
-.project-section .each-skill {
-  font-size: 18px;
-}
 .project-buttons {
-  margin: 48px 0;
+  margin: 56px 0;
 }
 .project-buttons .download-button {
-  padding: 8px 46px 7px 47px;
+  padding: 9.5px 46px 12px 46px;
   font-size: 18px;
 }
 .github-button {
@@ -272,8 +259,8 @@ body {
   .self-skills h1 {
     font-size: 32px;
   }
-  .projects .container {
-    display: block;
+  .projects {
+    margin: 88px 0;
   }
   .projects h1 {
     font-size: 32px;
@@ -285,16 +272,9 @@ body {
   }
   .project-data h2 {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin: 16px 0;
   }
   .project-sample {
     margin: 0 16px;
-  }
-  .project-section {
-    margin-left: 0;
-  }
-  .project-section h1 {
-    font-size: 32px;
-    line-height: 48px;
   }
 }
