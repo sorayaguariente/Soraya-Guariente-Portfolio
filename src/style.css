@@ -268,7 +268,7 @@ body {
     font-size: 16px;
   }
   .hero img {
-    margin-left: 8px;
+    margin: 16px;
     position: relative;
   }
   .hero .buttons {
@@ -279,7 +279,7 @@ body {
     font-size: 32px;
   }
   .about-me-box {
-    margin: 0;
+    margin: 0 16px;
   }
   .about-me-box .self-signature {
     display: block;
@@ -288,9 +288,7 @@ body {
   .about-soraya {
     margin: 0;
   }
-  .self-information {
-    margin-left: 16px;
-  }
+
   .self-skills {
     margin: 64px 0;
     padding: 32px 18px;
