@@ -281,7 +281,10 @@ body {
   .about-me-box {
     margin: 0 16px;
   }
-  .about-me-box .self-signature {
+  .about-me-box {
+    margin: 0 16px;
+  }
+  .self-signature {
     display: block;
     margin: 0 auto;
   }
@@ -298,7 +301,7 @@ body {
   }
   .project-page,
   .projects {
-    margin: 32px 0;
+    margin: 32px 16px;
   }
   .projects h1 {
     font-size: 32px;
