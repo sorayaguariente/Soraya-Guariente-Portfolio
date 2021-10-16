@@ -10,7 +10,8 @@ body {
   background-color: #ffffff;
   color: var(--text-color);
 }
-.navbar-style {
+.navbar-style,
+.navbar-style li {
   background-color: #ffffff;
   color: var(--text-color);
   font-size: 18px;
@@ -21,8 +22,22 @@ body {
   font-family: var(--font-family);
   font-size: 18px;
   background-color: var(--box-color);
-  color: var(--text-color);
   padding: 18px 0;
+
+  line-height: 36px;
+}
+.projects-btn-group a {
+  color: var(--title-color);
+  text-align: center;
+  transition: all 100ms ease-in-out;
+}
+.arrow {
+  max-width: 18px;
+}
+.projects-btn-group li.active a,
+.projects-btn-group a:hover {
+  color: var(--button-color);
+  text-decoration: underline;
 }
 .hero,
 .about-me-box {
@@ -149,7 +164,7 @@ body {
   margin-right: 13px;
   margin-bottom: 13px;
 }
-.projects {
+.project-page {
   font-family: var(--font-family);
   margin: 96px 160px;
 }
@@ -259,8 +274,8 @@ body {
   .self-skills h1 {
     font-size: 32px;
   }
-  .projects {
-    margin: 88px 0;
+  .project-page {
+    margin: 32px 0;
   }
   .projects h1 {
     font-size: 32px;
@@ -276,5 +291,8 @@ body {
   }
   .project-sample {
     margin: 0 16px;
+  }
+  a .download-button {
+    margin-left: 0;
   }
 }
