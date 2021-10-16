@@ -31,7 +31,7 @@ body {
   text-align: center;
   transition: all 100ms ease-in-out;
 }
- .disable {
+.disable {
   opacity: 50%;
 }
 .disable:hover {
@@ -169,17 +169,17 @@ body {
   margin-right: 13px;
   margin-bottom: 13px;
 }
-.project-page,
+
 .projects {
   font-family: var(--font-family);
-  margin: 96px 160px;
+  margin: 96px 180px;
 }
 .projects h1 {
   color: var(--title-color);
   font-size: 80px;
   line-height: 120px;
   font-weight: bold;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 .project-data {
   margin: 40px 0;
