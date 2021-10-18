@@ -81,13 +81,13 @@ body {
 }
 
 .download-image {
-  margin: 0;
+  margin: 0 8px;
   padding: 0;
   max-width: 18px;
 }
 .icon-button {
   padding: 0 0 0 8px;
-  margin-left: 8px;
+  margin: 0 8px;
 }
 .download-button {
   background-color: var(--button-color);
@@ -96,6 +96,22 @@ body {
   border-radius: 4px;
   padding: 10px;
   margin-left: 16px;
+  margin-right: 16px;
+}
+.download-button-responsive {
+  background-color: var(--button-color);
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  padding: 0;
+  margin-top: 16px;
+  margin-left: 32px;
+  max-height: 48px;
+}
+.download-button-responsive img {
+  max-width: 16px;
+  max-height: 18px;
+  padding: 0;
 }
 .download-button:hover {
   color: white;
@@ -172,7 +188,7 @@ body {
 
 .projects {
   font-family: var(--font-family);
-  margin: 96px 180px;
+  margin: 73px 180px;
 }
 .projects h1 {
   color: var(--title-color);
@@ -274,12 +290,15 @@ body {
   .hero .buttons {
     margin-top: 32px;
   }
+  .hero .download-button {
+    padding: 0;
+  }
+  .download-button {
+    margin-left: 0;
+  }
   .about-me-box h1 {
     margin-left: 16px;
     font-size: 32px;
-  }
-  .about-me-box {
-    margin: 0 16px;
   }
   .about-me-box {
     margin: 0 16px;
@@ -288,8 +307,12 @@ body {
     display: block;
     margin: 0 auto;
   }
-  .about-soraya {
+  .container {
+    max-width: 980px;
     margin: 0;
+  }
+  .about-soraya {
+    margin-left: 0;
   }
 
   .self-skills {
